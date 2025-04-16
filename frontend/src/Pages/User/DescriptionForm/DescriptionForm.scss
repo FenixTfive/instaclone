@@ -1,0 +1,10 @@
+@use "../../../scss/color.scss";
+.description-form {
+  margin: 20px;
+  textarea {
+    margin-bottom: 20px !important;
+    &.error {
+      border: 1px solid color.$danger !important;
+    }
+  }
+}

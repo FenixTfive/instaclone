@@ -1,0 +1,27 @@
+@use "../../../scss/color.scss";
+.login-form {
+  h2 {
+    font-size: 17px !important;
+    text-align: center;
+    margin-bottom: 20px !important;
+  }
+  input {
+    padding: 15px !important;
+    background-color: #f9f9f9 !important;
+  }
+}
+.ui.pointing.label,
+.ui[class*="pointing above"].label {
+  margin-top: 0 !important;
+}
+
+.btn-submit {
+  width: 100%;
+  background-color: color.$action !important;
+  color: color.$font-light !important;
+}
+.submit-error {
+  color: color.$danger;
+  text-align: center;
+  margin: 20px 0 0 0;
+}

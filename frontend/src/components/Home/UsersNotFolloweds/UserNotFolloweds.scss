@@ -1,0 +1,13 @@
+@use "../../../scss/color.scss";
+.user-not-followers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  &__user {
+    margin-top: 20px;
+    color: color.$font-dark;
+    img {
+      margin-right: 15px !important;
+    }
+  }
+}

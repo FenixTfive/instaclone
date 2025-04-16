@@ -1,0 +1,11 @@
+.preview-publication {
+  height: 100%;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  &__image {
+    width: 250px !important;
+    height: 400px !important;
+  }
+}
