@@ -1,0 +1,11 @@
+.side {
+  padding: 12px 0;
+  &__logo {
+    display: flex !important;
+    align-items: center;
+    padding: 12px;
+    img {
+      height: 25px;
+    }
+  }
+}

@@ -17,16 +17,17 @@ const Navigation = () => {
       <Routes>
         <Route
           element={
-            <PrivateRoutes>
-              <MainLayout />
-            </PrivateRoutes>
+            <MainLayout>
+              <PrivateRoutes />
+            </MainLayout>
           }
         >
           <Route path="/" exact element={<Home />} />
           <Route path="/:username" exact element={<User />} />
           <Route component={Error404} />
         </Route>
-        <Route path="/login" exact element={<Auth />} />
+        {/* <Route path="/login" exact element={<Auth />} /> */}
+        <Route path="*" exact element={<Auth />} />
       </Routes>
     </BrowserRouter>
   );

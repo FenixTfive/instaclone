@@ -10,11 +10,11 @@ const Header = () => {
     <div className="header">
       <Container>
         <Grid>
-          <Grid.Column width={3} className="header__logo">
+          {/* <Grid.Column width={3} className="header__logo">
             <Link to="/home">
               <Image src={logo} alt="logo" />
             </Link>
-          </Grid.Column>
+          </Grid.Column> */}
           <Grid.Column width={10}>
             <Search />
           </Grid.Column>

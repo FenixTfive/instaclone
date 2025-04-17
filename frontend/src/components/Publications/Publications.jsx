@@ -5,7 +5,6 @@ import PreviewPublication from "./PreviewPublication";
 const Publications = ({ publications }) => {
   return (
     <div className="publications">
-      <h1>Publicaciones</h1>
       <Grid columns={4}>
         {publications.map((publication, index) => {
           return (
