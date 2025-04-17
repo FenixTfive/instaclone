@@ -1,11 +1,57 @@
-.side {
-  padding: 12px 0;
+.side-menu {
+  // background-color: #000;
+
+  color: #000;
+  height: 100vh;
+  width: 220px;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+
   &__logo {
-    display: flex !important;
-    align-items: center;
-    padding: 12px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 0.5rem;
+
     img {
       height: 25px;
     }
   }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+    gap: 1rem;
+    position: relative;
+
+    &:hover {
+      color: #ccc;
+    }
+  }
+
+  &__icon {
+    font-size: 1.5rem;
+    position: relative;
+  }
+
+  // &__badge {
+  //   background-color: red;
+  //   color: white;
+  //   font-size: 0.6rem;
+  //   padding: 0.15rem 0.4rem;
+  //   border-radius: 999px;
+  //   position: absolute;
+  //   top: -6px;
+  //   right: -6px;
+  // }
 }
